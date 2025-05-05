@@ -1,0 +1,10 @@
+name: first_workflow
+no: workflow_task
+jobs:
+   first_job:
+   run on: ubuntu-latest
+    steps: 
+      -name: print greetings
+       run: echo"Hello guy!"
+      -name: print good bye
+       run: echo"Done-yet!"
